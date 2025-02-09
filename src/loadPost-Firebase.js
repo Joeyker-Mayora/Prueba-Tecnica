@@ -1,12 +1,10 @@
 import admin from "firebase-admin";
-import data from "../src/asset/api.json" assert { type: "json" };
-
+import data from "./data.js"; // Importa los datos desde data.js
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const serviceAccount = require("../src/key_service_account.json");
 
 const collectionKey = "posts"; // Nombre de la colección en Firestore
-
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -16,11 +14,10 @@ const firestore = admin.firestore();
 
 const uploadData = async () => {
   if (!Array.isArray(data)) {
-    console.error("Error: el archivo JSON no es un array.");
+    console.error("Error: el archivo data.js no es un array.");
     return;
   }
 
-  
   for (const item of data) {
     try {
       const docRef = firestore.collection(collectionKey).doc(String(item.id)); 

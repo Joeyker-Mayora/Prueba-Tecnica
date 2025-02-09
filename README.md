@@ -1,42 +1,35 @@
-# Proyecto WebApp con Firebase y Google Sign-In
+# 🚀 WebApp con Firebase y Google Sign-In
 
-Este proyecto consiste en una **Prueba Tecnica** construida con **React** **Firebase** **Vite** como herramienta de desarrollo. La aplicación permite la autenticación de usuarios mediante **Google Sign-In** y ofrece funcionalidades como la visualización de posts, interacción con comentarios y filtrado de posts por tags. Los datos se almacenan de manera persistente en **Firebase**, utilizando su base de datos no relacional.
+Una **prueba técnica** desarrollada con **React, Firebase y Vite**, que permite la autenticación de usuarios con **Google Sign-In** y ofrece funcionalidades como la visualización de posts, interacción con comentarios y filtrado por tags. Los datos se almacenan de forma persistente en **Firebase**.
 
-## Descripción
+## 🌟 Características
 
-La aplicación permite a los usuarios realizar las siguientes acciones:
+✅ **Autenticación con Google** – Los usuarios pueden iniciar sesión de forma segura.
+✅ **Exploración de posts** – Visualización de posts con título, imagen, tags y autor.
+✅ **Comentarios** – Posibilidad de ver los comentarios asociados a cada post.
+✅ **Filtrado avanzado** – Encuentra posts fácilmente mediante tags.
 
-- **Iniciar sesión con Google**: Los usuarios pueden autenticarse a través de Google Sign-In. 
-- **Ver posts**: Los posts se presentan con su título, imagen principal, tags, y el nombre del usuario que los publicó.
-- **Ver comentarios**: Al hacer clic en un post, los usuarios pueden visualizar los comentarios asociados.
-- **Filtrar por tags**: Los posts se pueden filtrar según los tags seleccionados.
+## 🛠️ Tecnologías
 
-## Tecnologías
 
-- **React**: Biblioteca para construir la interfaz de usuario.
-- **Vite**: Herramienta de construcción rápida y eficiente para React.
-- **Firebase**: Plataforma para autenticación y almacenamiento de datos.
-- **CSS**: Estilos personalizados para la interfaz de usuario.
-- **Google Sign-In**: Autenticación mediante cuenta de Google.
+| Tecnología        | Descripción                                  |
+| ------------------ | --------------------------------------------- |
+| **React**          | Biblioteca para crear interfaces dinámicas.  |
+| **Vite**           | Entorno de desarrollo ultrarrápido.          |
+| **Firebase**       | Backend para autenticación y almacenamiento. |
+| **CSS**            | Estilos personalizados para una UI atractiva. |
+| **Google Sign-In** | Autenticación con cuentas de Google.         |
+| **NodeJs** | Creacion de API con NodeJs.         |
 
-## Estructura del Proyecto
 
-La estructura del proyecto está organizada de la siguiente manera:
+# Clonar el repositorio
+git clone https://github.com/Joeyker-Mayora/Prueba-Tecnica.git
 
-- **Componentes**: Cada componente se encuentra en su propia carpeta (`Navbar`, `GoogleSignIn`, `PostList`, `PostItem`,`TagFilter`,`CommentModal`), con archivos `.jsx` para el código y `.css` para los estilos específicos de cada componente.
-- **firebase.js**: Configuración de Firebase para la autenticación y la base de datos.
-- **App.jsx**: Componente principal de la aplicación.
-- **index.js**: Punto de entrada para la aplicación React.
+# Acceder al directorio del proyecto
+cd Prueba-Tecnica
 
-## Instalación
+# Instalar dependencias
+npm install
 
-Para instalar el proyecto localmente, sigue estos pasos:
-
-# Clone this repository
-$ git clone https://github.com/Joeyker-Mayora/Prueba-Tecnica.git Prueba-Tecnica
-
-# Go into the repository
-$ cd Prueba-Tecnica
-
-# Install dependencies
-$ npm install
+# Iniciar el servidor de desarrollo
+npm run dev
