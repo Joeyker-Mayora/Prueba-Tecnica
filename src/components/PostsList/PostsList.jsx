@@ -2,7 +2,7 @@
 import PostItem from "../PostItem/PostItem";
 import TagFilter from "../TagFilter/TagFilter";
 import CommentModal from "../CommentModal/CommentModal";
-import usePosts from "../Hooks/usePost"; // Importar el custom hook
+import usePosts from "../Hooks/usePost"; 
 import "./PostsList.css";
 
 const PostList = () => {
@@ -14,7 +14,7 @@ const PostList = () => {
     closeModal,
     filterPosts,
     tags,
-  } = usePosts(); // Usar el custom hook
+  } = usePosts(); 
 
   return (
     <div>

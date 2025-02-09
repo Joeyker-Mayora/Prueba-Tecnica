@@ -1,10 +1,10 @@
 import admin from "firebase-admin";
-import data from "./data.js"; // Importa los datos desde data.js
+import data from "./data.js"; 
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const serviceAccount = require("../src/key_service_account.json");
 
-const collectionKey = "posts"; // Nombre de la colección en Firestore
+const collectionKey = "posts"; 
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
