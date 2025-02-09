@@ -10,7 +10,7 @@ const usePosts = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/posts");
+        const response = await axios.get("https://api-infobae.vercel.app/posts");
         const postsList = response.data;
         setPosts(postsList);
         setFilteredPosts(postsList);
