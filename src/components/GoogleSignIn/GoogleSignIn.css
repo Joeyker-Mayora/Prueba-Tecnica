@@ -1,0 +1,80 @@
+/* GoogleSignIn.css */
+
+/* Contenedor específico para el botón y la información de Google Sign-In */
+.google-signin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  /* Avatar con la imagen del usuario */
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .logout-btn {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c53030;
+  }
+  
+  /* Botón de inicio de sesión */
+  .login-btn {
+    padding: 8px 16px;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #2b6cb0;
+  }
+  

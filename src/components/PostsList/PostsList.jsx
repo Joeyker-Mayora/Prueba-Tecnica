@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { db } from '../firebase';
+import { db } from '../../firebase';
 import { collection, getDocs } from "firebase/firestore";
 import PostItem from '../PostItem/PostItem';
 import TagFilter from  '../TagFilter/TagFilter';
