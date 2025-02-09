@@ -1,0 +1,24 @@
+.tag-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .filter-btn {
+    
+    
+    border: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .filter-btn:hover {
+    background-color: #007bff;
+  }
+  
